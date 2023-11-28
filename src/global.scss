@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,700;0,8..144,900;1,8..144,700&family=Roboto:wght@400;700&display=swap');
+:root{
+    --color-primary: #f1c40f;
+    --color-secondary: #e67e22;
+    --color-tertiary: #e74c3c;
+    --color-quaternary: #2ecc71;
+    --color-quinary: #3498db;
+    --color-senary: #9b59b6;
+    --color-septenary: #34495e;
+    --color-octonary: #16a085;
+    --color-nonary: #27ae60;
+    --color-denary: #2980b9;
+    --color-light: #ecf0f1;
+    --color-dark: #2c3e50;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-gray: #7f8c8d;
+    --color-gray-light: #bdc3c7;
+    --color-gray-dark: #2c3e50;
+    --color-gray-darker: #34495e;
+    --color-gray-lighter: #ecf0f1;
+    --color-gray-lightest: #f5f5f5;
+    --color-success: #2ecc71;
+    --color-info: #3498db;
+    --color-warning: #f1c40f;
+    --color-danger: #e74c3c;
+    --color-link: #3498db;
+    --color-link-hover: #2980b9;
+    --color-link-visited: #9b59b6;
+    --color-link-active: #16a085;
+    --color-link-focus: #e67e22;
+    --color-link-disabled: #7f8c8d;
+    --color-link-text: #fff;
+    --color-link-text-hover: #fff;
+    --color-link-text-visited: #fff;
+    --color-link-text-active: #fff;
+    --color-link-text-focus: #fff;
+    --color-link-text-disabled: #fff;
+    --color-link-background: #3498db;
+    --color-link-background-hover: #2980b9;
+    --color-link-background-visited: #9b59b6;
+    --color-link-background-active: #16a085;
+    --color-link-background-focus: #e67e22;
+    --color-link-background-disabled: #7f8c8d;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var( --color-denary);
+    text-align: center;
+    background-color: var(--color-septenary);
+}
+li {
+    list-style: none;
+}
+a {
+    color: var(--color-link);
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover {
+    color: var( --color-link-text-hover);
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+    background-color: var(--color-gray-darker);
+}
