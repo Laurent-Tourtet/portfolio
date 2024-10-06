@@ -6,24 +6,32 @@
 	
   </script>
   
-  <div class="container">
+  <section class="container">
     <Title />
     <Subtitle />
     <Skills />
     <!-- <Nav />   -->
+<article class="action-button">
     <a href="/about">
         <button type="button" class="enter-button">Bienvenue</button>
       </a>
-  </div>
+    </article>
+  </section>
   
   <style>
     .container {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      /* align-items: center; */
       height: 100vh;
       padding: 2rem;
+    }
+    .action-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
    button {
       background-color: #0d0c0c; 
