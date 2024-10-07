@@ -29,15 +29,10 @@
       margin: 0 auto 0.5rem auto;
       padding: 0;
       color: #f40606;
-      /* font-family: "Sixtyfour Convergence", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "BLED" 0,
-    "SCAN" 0,
-    "XELA" 0,
-    "YELA" 0; */
+      font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal; 
     }
   
     .neon-animation {

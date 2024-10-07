@@ -8,7 +8,7 @@
         { name: 'Accueil', path: '/' },
         { name: 'A Propos', path: '/about' },
         { name: 'Réalisation', path: '/real' },
-        { name: 'Devis Gratuit', path: '/Devis gratuit' },
+        { name: 'Tarifs', path: '/price' },
         { name: 'Contact', path: '/contact' }
     ];
     
