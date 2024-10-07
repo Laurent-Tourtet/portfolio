@@ -25,11 +25,11 @@
    
   
     p {
-      font-size: 0.8rem;
+      font-size: 1.4rem;
       margin: 0 auto 0.5rem auto;
       padding: 0;
-      color: #fff;
-      font-family: "Sixtyfour Convergence", sans-serif;
+      color: #f40606;
+      /* font-family: "Sixtyfour Convergence", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -37,7 +37,7 @@
     "BLED" 0,
     "SCAN" 0,
     "XELA" 0,
-    "YELA" 0;
+    "YELA" 0; */
     }
   
     .neon-animation {

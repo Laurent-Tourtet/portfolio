@@ -21,5 +21,6 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #0d0c0c;
+    /* background-color: #0d0c0c; */
+    background-image: url(/mont-blanc-1886323_1280.jpg);
 }

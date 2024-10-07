@@ -22,7 +22,9 @@
       font-size: 5rem;
       margin: 0 auto 0.7rem auto;
       padding: 0;
-      font-family: "Sixtyfour Convergence", sans-serif;
+      color: #ed3305;
+     
+      /* font-family: "Sixtyfour Convergence", sans-serif;
       font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;
@@ -30,7 +32,7 @@
         "BLED" 0,
         "SCAN" 0,
         "XELA" 0,
-        "YELA" 0;
+        "YELA" 0; */
     }
   
     .neon-animation {

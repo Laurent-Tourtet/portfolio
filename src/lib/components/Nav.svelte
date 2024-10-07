@@ -5,9 +5,10 @@
     import { goto } from '$app/navigation';
     
     let pages = [
-        { name: 'Home', path: '/' },
-        { name: 'About', path: '/about' },
-        { name: 'Projects', path: '/projects' },
+        { name: 'Accueil', path: '/' },
+        { name: 'A Propos', path: '/about' },
+        { name: 'Réalisation', path: '/real' },
+        { name: 'Devis Gratuit', path: '/Devis gratuit' },
         { name: 'Contact', path: '/contact' }
     ];
     

@@ -13,7 +13,7 @@
     <!-- <Nav />   -->
 <article class="action-button">
     <a href="/about">
-        <button type="button" class="enter-button">Bienvenue</button>
+        <button type="button" class="enter-button">Préparez votre ascension</button>
       </a>
     </article>
   </section>
@@ -49,9 +49,10 @@
       transition: box-shadow 0.3s ease-in-out;
     }
     button:hover {
-      background-color: #ff4942; 
+      background-color: #beb5b5; 
+      border: 1px solid #fffcfc;
       color: #0d0c0c;
-      box-shadow: 0 0 20px #ff4942, 0 0 30px #ff4942, 0 0 40px #ff4942, 0 0 50px #ff4942;
+      box-shadow: 0 0 10px #f8f6f6, 0 0 15px #f8f6f6, 0 0 20px #f8f6f6, 0 0 25px #f8f6f6;
     }
   
     @media (max-width: 768px) {

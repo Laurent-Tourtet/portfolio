@@ -9,7 +9,7 @@
     { name: 'Svelte', logo: '/svelte-1.svg' },
     { name: 'Directus', logo: '/Directus.svg' },
     { name: 'AWS', logo: '/aws-2.svg' },
-    { name: 'IonosPartner', logo: '/1and1-ionos-logo.svg' }
+    { name: 'Wordpress', logo: '/wordpress.svg' }
   ];
 
   let showSkills = true;
@@ -19,7 +19,7 @@
   {#if showSkills}
     {#each skills as skill, index (skill.name)}
       <div class="skill" style="animation-delay: {index * 0.5}s; opacity: 0;">
-        <img src={skill.logo} alt={skill.name} width="50" class="logo-animation" />
+        <img src={skill.logo} alt={skill.name} width="70" class="logo-animation" />
       </div>
     {/each}
   {/if}
@@ -52,13 +52,13 @@
     }
   }
 
-  .skill:nth-child(1) { left: 300px; }
-  .skill:nth-child(2) { left: 400px; }
-  .skill:nth-child(3) { left: 500px; }
-  .skill:nth-child(4) { left: 600px; }
-  .skill:nth-child(5) { left: 700px; }
-  .skill:nth-child(6) { left: 800px; }
-  .skill:nth-child(7) { left: 900px; }
+  .skill:nth-child(1) { left: 250px; }
+  .skill:nth-child(2) { left: 350px; }
+  .skill:nth-child(3) { left: 450px; }
+  .skill:nth-child(4) { left: 550px; }
+  .skill:nth-child(5) { left: 650px; }
+  .skill:nth-child(6) { left: 750px; }
+  .skill:nth-child(7) { left: 850px; }
 
   .logo-animation {
     animation: logo-animation 2s forwards;
